@@ -239,7 +239,7 @@ export default function Home() {
                 <span className="px-2 py-1 bg-muted text-xs rounded">Streams</span>
               </div>
               <div className="flex gap-4">
-                <Link href="https://github.com" target="_blank" className="text-sm text-primary hover:underline">
+                <Link href="https://github.com/useranonymous001/anyshare" target="_blank" className="text-sm text-primary hover:underline">
                   View Code
                 </Link>
               </div>
@@ -257,11 +257,32 @@ export default function Home() {
                 <span className="px-2 py-1 bg-muted text-xs rounded">APIs</span>
               </div>
               <div className="flex gap-4">
-                <Link href="https://github.com" target="_blank" className="text-sm text-primary hover:underline">
+                <Link href="https://github.com/useranonymous001/twitter-backend-clone" target="_blank" className="text-sm text-primary hover:underline">
                   View Code
                 </Link>
               </div>
             </div>
+
+            <div className="border rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-2">A Fully Functional E-Commerce Backend API</h3>
+              <p className="text-muted-foreground mb-4">
+              A fully functional backend API designed for e-commerce platforms, ensuring high scalability and performance. It includes features like user authentication, product management, order processing, and payment integration.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-muted text-xs rounded">Node JS</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">Express Js</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">MongoDB</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">Mongoose</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">APIs</span>
+              </div>
+              <div className="flex gap-4">
+                <Link href="https://github.com/useranonymous001/twitter-backend-clone" target="_blank" className="text-sm text-primary hover:underline">
+                  View Code
+                </Link>
+              </div>
+            </div>
+
+
           </div>
         </section>
 
