@@ -24,21 +24,21 @@ export default function ResumePage() {
 
       <div className="max-w-4xl mx-auto bg-background border rounded-lg shadow-sm p-8 print:shadow-none print:border-none">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold">John Doe</h1>
-          <h2 className="text-xl text-muted-foreground mb-4">Senior Backend Developer</h2>
+          <h1 className="text-3xl font-bold">Lok Bahadur Khatri</h1>
+          <h2 className="text-xl text-muted-foreground mb-4">Backend Developer</h2>
 
           <div className="flex flex-wrap gap-4 text-sm">
             <div className="flex items-center gap-1">
               <Mail className="h-4 w-4" />
-              <span>contact@example.com</span>
+              <span>rohan.mechi29@gmail.com</span>
             </div>
             <div className="flex items-center gap-1">
               <Phone className="h-4 w-4" />
-              <span>(123) 456-7890</span>
+              <span>977-9816025638</span>
             </div>
             <div className="flex items-center gap-1">
               <MapPin className="h-4 w-4" />
-              <span>San Francisco, CA</span>
+              <span>Jhapa, Nepal</span>
             </div>
           </div>
         </header>
@@ -47,9 +47,7 @@ export default function ResumePage() {
           <h3 className="text-lg font-bold mb-2">Summary</h3>
           <Separator className="mb-3" />
           <p>
-            Senior Backend Developer with 5+ years of experience designing and implementing scalable, high-performance
-            systems. Specialized in distributed systems, microservices architecture, and cloud infrastructure. Proven
-            track record of delivering robust solutions that handle millions of daily transactions.
+          Experienced backend developer with a strong foundation in designing scalable APIs and systems. Proficient in collaborating with cross-functional teams and contributing to open-source initiatives.
           </p>
         </section>
 
@@ -59,19 +57,19 @@ export default function ResumePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-medium mb-1">Programming Languages</h4>
-              <p className="text-muted-foreground">JavaScript, TypeScript, Python, Java, Go, C#</p>
+              <p className="text-muted-foreground">JavaScript, C/C++(basic), Bash</p>
             </div>
             <div>
               <h4 className="font-medium mb-1">Frameworks & Libraries</h4>
-              <p className="text-muted-foreground">Node.js, Express.js, NestJS, Django, Spring Boot, ASP.NET Core</p>
+              <p className="text-muted-foreground">Node.js, Express.js</p>
             </div>
             <div>
               <h4 className="font-medium mb-1">Databases</h4>
-              <p className="text-muted-foreground">PostgreSQL, MongoDB, MySQL, Redis, Elasticsearch, DynamoDB</p>
+              <p className="text-muted-foreground"> MongoDB, Redis</p>
             </div>
             <div>
               <h4 className="font-medium mb-1">DevOps & Cloud</h4>
-              <p className="text-muted-foreground">Docker, Kubernetes, AWS, GCP, Azure, CI/CD</p>
+              <p className="text-muted-foreground">Docker, Linux</p>
             </div>
           </div>
         </section>
@@ -83,59 +81,38 @@ export default function ResumePage() {
           <div className="space-y-4">
             <div>
               <div className="flex justify-between mb-1">
-                <h4 className="font-medium">Senior Backend Engineer</h4>
+                <h4 className="font-medium">Backend Engineer</h4>
                 <span className="text-sm text-muted-foreground">2021 - Present</span>
               </div>
               <div className="flex justify-between mb-2">
-                <span>TechCorp Inc.</span>
-                <span className="text-sm text-muted-foreground">San Francisco, CA</span>
+                <span className="text-sm text-muted-foreground" >Aspiring Backend Developer</span>
+                <span className="text-sm text-muted-foreground">Bhadrapur, Nepal</span>
               </div>
               <ul className="list-disc pl-5 space-y-1 text-sm">
-                <li>
-                  Lead the development of a distributed system processing 50M+ daily transactions with 99.99% uptime
-                </li>
-                <li>
-                  Designed and implemented microservices architecture reducing system complexity and improving
-                  scalability
-                </li>
-                <li>Optimized database queries resulting in 70% performance improvement for critical API endpoints</li>
-                <li>Mentored junior engineers and established coding standards and best practices</li>
-              </ul>
+              <li>Developed and maintained RESTful APIs and WebSocket-based real-time communication systems.</li>
+                  <li>Designed and implemented scalable backend architectures for e-commerce platforms and collaborative tools.</li>
+                  <li>Optimized database queries and server performance to handle high traffic and ensure low latency.</li>
+                  <li>Collaborated with cross-functional teams to deliver high-quality software solutions.</li>
+           </ul>
             </div>
 
             <div>
               <div className="flex justify-between mb-1">
-                <h4 className="font-medium">Backend Developer</h4>
-                <span className="text-sm text-muted-foreground">2018 - 2021</span>
+                <h4 className="font-medium">Co-Founder</h4>
+                <span className="text-sm text-muted-foreground">2024 - current</span>
               </div>
               <div className="flex justify-between mb-2">
-                <span>DataSystems LLC</span>
-                <span className="text-sm text-muted-foreground">Seattle, WA</span>
+                <span className="text-sm text-muted-foreground">Business Insights Daily</span>
+                <span className="text-sm text-muted-foreground">Kathmandu, Nepal</span>
               </div>
               <ul className="list-disc pl-5 space-y-1 text-sm">
-                <li>Developed RESTful APIs and GraphQL endpoints for a SaaS platform with 500K+ users</li>
-                <li>Implemented real-time data processing pipelines using Kafka and Elasticsearch</li>
-                <li>Reduced infrastructure costs by 40% through optimization and cloud resource management</li>
-                <li>Collaborated with frontend teams to design and implement new features</li>
-              </ul>
+              <li>Co-founded a company focused on providing in-depth analysis of businesses through well-researched articles.</li>
+                  <li>Authored and published articles on various industries, trends, and market insights.</li>
+                  <li>Collaborated with a team of writers and analysts to ensure high-quality content delivery.</li>
+                </ul>
             </div>
 
-            <div>
-              <div className="flex justify-between mb-1">
-                <h4 className="font-medium">Software Engineer</h4>
-                <span className="text-sm text-muted-foreground">2016 - 2018</span>
-              </div>
-              <div className="flex justify-between mb-2">
-                <span>StartupX</span>
-                <span className="text-sm text-muted-foreground">Austin, TX</span>
-              </div>
-              <ul className="list-disc pl-5 space-y-1 text-sm">
-                <li>Built backend services for a fintech application handling sensitive user data</li>
-                <li>Implemented secure authentication and authorization systems</li>
-                <li>Developed automated testing frameworks improving code coverage to 90%</li>
-                <li>Participated in agile development processes and sprint planning</li>
-              </ul>
-            </div>
+
           </div>
         </section>
 
@@ -145,12 +122,12 @@ export default function ResumePage() {
 
           <div>
             <div className="flex justify-between mb-1">
-              <h4 className="font-medium">B.S. Computer Science</h4>
-              <span className="text-sm text-muted-foreground">2012 - 2016</span>
+              <h4 className="font-medium">BSc. CSIT</h4>
+              <span className="text-sm text-muted-foreground">2024 - current</span>
             </div>
             <div className="flex justify-between">
-              <span>Stanford University</span>
-              <span className="text-sm text-muted-foreground">Stanford, CA</span>
+              <span>Mechi Multiple Campus</span>
+              <span className="text-sm text-muted-foreground">Bhadrapur, Jhapa</span>
             </div>
           </div>
         </section>
@@ -161,29 +138,35 @@ export default function ResumePage() {
 
           <div className="space-y-4">
             <div>
-              <h4 className="font-medium">Distributed Task Queue System</h4>
-              <p className="text-sm mb-1">Technologies: Node.js, Redis, Docker, AWS</p>
+              <h4 className="font-medium">Real Time Text Collaboration Web App</h4>
+              <p className="text-sm mb-1">Technologies: Node.js, Websockets, Express, MongoDB</p>
               <p className="text-sm">
-                Designed and implemented a scalable task queue system handling 10M+ daily jobs with automatic retries
-                and dead-letter queues.
+              A multi-user collaborative text editor designed for seamless real-time text editing.
               </p>
             </div>
 
             <div>
-              <h4 className="font-medium">Real-time Analytics API</h4>
-              <p className="text-sm mb-1">Technologies: Go, ClickHouse, Kafka, Kubernetes</p>
+              <h4 className="font-medium">A CLI based File Sharing Tool</h4>
+              <p className="text-sm mb-1">Technologies: JavaScript, Node Js, Grid FS, Streams</p>
               <p className="text-sm">
-                Built a high-performance API for real-time analytics processing 5TB+ of data daily with sub-second query
-                response times.
+              A cloned version of Google Drive with CLI features to manage/play with files (under development).
+
               </p>
             </div>
 
             <div>
-              <h4 className="font-medium">E-commerce Microservices</h4>
-              <p className="text-sm mb-1">Technologies: Java, Spring Boot, PostgreSQL, RabbitMQ</p>
+              <h4 className="font-medium">Twitter Backend Clone</h4>
+              <p className="text-sm mb-1">Technologies: Node JS, Express Js, MongoDB, APIs</p>
               <p className="text-sm">
-                Refactored a monolithic e-commerce backend into microservices, improving scalability and reducing
-                deployment times by 80%.
+              A Cloned Backend System of Twitter undestanding the backend of Twitter
+              </p>
+            </div>
+
+            <div>
+              <h4 className="font-medium">A Fully Functional E-Commerce Backend API</h4>
+              <p className="text-sm mb-1">Technologies: Node JS, Express Js, MongoDB, APIs</p>
+              <p className="text-sm">
+              A fully functional backend API designed for e-commerce platforms, ensuring high scalability and performance. It includes features like user authentication, product management, order processing, and payment integration.
               </p>
             </div>
           </div>
@@ -193,20 +176,20 @@ export default function ResumePage() {
           <h3 className="text-lg font-bold mb-2">Certifications</h3>
           <Separator className="mb-3" />
 
-          <div className="space-y-2">
+            <div className="space-y-2">
             <div className="flex justify-between">
-              <span>AWS Certified Solutions Architect - Professional</span>
-              <span className="text-sm text-muted-foreground">2022</span>
+              <span>Node.js Services Developer (JSNAD)</span>
+              <span className="text-sm text-muted-foreground">2024</span>
             </div>
             <div className="flex justify-between">
-              <span>Google Cloud Professional Cloud Architect</span>
-              <span className="text-sm text-muted-foreground">2021</span>
+              <span>MongoDB Certified Developer Associate</span>
+              <span className="text-sm text-muted-foreground">2024</span>
             </div>
             <div className="flex justify-between">
-              <span>Certified Kubernetes Administrator (CKA)</span>
-              <span className="text-sm text-muted-foreground">2020</span>
+              <span>Docker Certified Associate</span>
+              <span className="text-sm text-muted-foreground">2025</span>
             </div>
-          </div>
+            </div>
         </section>
       </div>
     </div>

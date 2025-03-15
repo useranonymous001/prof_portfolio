@@ -134,12 +134,25 @@ export default function Home() {
               <span className="sr-only">Email</span>
             </Link>
           </div>
-          <Button asChild>
-            <a href="/resume.pdf" download="lok_bahadur_khatri.pdf">
+
+            <div className="flex justify-center gap-4">
+            <Button asChild>
+              <a
+              href="/resume"
+              className="px-4 py-2 border border-white text-white rounded-md bg-transparent transition-all hover:bg-white hover:text-black"
+              >
+              View Resume
+              </a>
+            </Button>
+            <Button asChild>
+              <a href="/resume.pdf" download="lok_bahadur_khatri.pdf" className="flex items-center">
               <Download className="mr-2 h-4 w-4" />
               Download Resume
-            </a>
-          </Button>
+              </a>
+            </Button>
+            </div>
+
+
         </header>
 
         {/* About Section */}
