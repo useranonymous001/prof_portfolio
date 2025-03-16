@@ -126,11 +126,11 @@ export default function Home() {
               <span className="sr-only">GitHub</span>
             </Link>
             <Link href="https://www.linkedin.com/in/rohan-khatri-001bm/" target="_blank" className="text-muted-foreground hover:text-foreground">
-              <Linkedin className="h-6 w-6" />
+              <Linkedin className="h-6 w-6 fill-current" />
               <span className="sr-only">LinkedIn</span>
             </Link>
             <Link href="mailto:rohan.mechi29@gmail.com" className="text-muted-foreground hover:text-foreground">
-              <Mail className="h-6 w-6" />
+              <Mail className="h-6 w-6 " />
               <span className="sr-only">Email</span>
             </Link>
           </div>
@@ -186,34 +186,72 @@ export default function Home() {
           <h2 className="text-2xl font-bold mb-4 text-center">Skills</h2>
           <div className="space-y-6">
             <div>
-              <h3 className="text-lg font-medium mb-2 text-center">Programming Languages</h3>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="px-3 py-1 bg-muted rounded-full">JavaScript</span>
-                <span className="px-3 py-1 bg-muted rounded-full">C/C++ (basic) </span>
-
-              </div>
+              <h3 className="text-lg font-medium mb-4 text-center">Programming Languages</h3>
+                <div className="flex flex-wrap justify-center gap-6">
+                <div className="relative group">
+                  <Image src="/icons/javascript.svg" alt="JavaScript" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  JavaScript
+                  </span>
+                </div>
+                <div className="relative group">
+                  <Image src="/icons/cpp.svg" alt="C/C++" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  C/C++
+                  </span>
+                </div>
+                </div>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2 text-center">Frameworks & Libraries</h3>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="px-3 py-1 bg-muted rounded-full">Node.js</span>
-                <span className="px-3 py-1 bg-muted rounded-full">Express.js</span>
-              </div>
+              <h3 className="text-lg font-medium mb-4 text-center">Frameworks & Libraries</h3>
+                <div className="flex flex-wrap justify-center gap-6">
+                <div className="relative group">
+                  <Image src="/icons/nodejs.svg" alt="Node.js" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Node.js
+                  </span>
+                </div>
+                <div className="relative group">
+                  <Image src="/icons/express.svg" alt="Express.js" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Express.js
+                  </span>
+                </div>
+                </div>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2 text-center">Databases</h3>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="px-3 py-1 bg-muted rounded-full">MongoDB</span>
-                <span className="px-3 py-1 bg-muted rounded-full">Redis</span>
-
-              </div>
+              <h3 className="text-lg font-medium mb-4 text-center">Databases</h3>
+                <div className="flex flex-wrap justify-center gap-6">
+                <div className="relative group">
+                  <Image src="/icons/mongodb.svg" alt="MongoDB" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  MongoDB
+                  </span>
+                </div>
+                <div className="relative group">
+                  <Image src="/icons/redis.svg" alt="Redis" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Redis
+                  </span>
+                </div>
+                </div>
             </div>
             <div>
-              <h3 className="text-lg font-medium mb-2 text-center">DevOps & Cloud</h3>
-              <div className="flex flex-wrap justify-center gap-2">
-                <span className="px-3 py-1 bg-muted rounded-full">Docker</span>
-
-              </div>
+              <h3 className="text-lg font-medium mb-4 text-center">DevOps & Cloud</h3>
+                <div className="flex flex-wrap justify-center gap-6">
+                <div className="relative group">
+                  <Image src="/icons/docker.svg" alt="Docker" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Docker
+                  </span>
+                </div>
+                <div className="relative group">
+                  <Image src="/icons/linux.svg" alt="Linux" width={48} height={48} />
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-full bg-black text-white text-xs rounded px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity">
+                  Linux
+                  </span>
+                </div>
+                </div>
             </div>
           </div>
         </section>

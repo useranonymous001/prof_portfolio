@@ -57,19 +57,51 @@ export default function ResumePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div>
               <h4 className="font-medium mb-1">Programming Languages</h4>
-              <p className="text-muted-foreground">JavaScript, C/C++(basic), Bash</p>
+                <div className="flex items-center gap-2">
+                <img src="/icons/javascript.svg" alt="JavaScript" className="h-5 w-5" />
+                <span className="text-muted-foreground">JavaScript</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <img src="/icons/cpp.svg" alt="C/C++" className="h-5 w-5" />
+                <span className="text-muted-foreground">C/C++ (basic)</span>
+                </div>
+                <div className="flex items-center gap-2">
+                <img src="/icons/bash.svg" alt="Bash" className="h-5 w-5" />
+                <span className="text-muted-foreground">Bash</span>
+                </div>
             </div>
             <div>
               <h4 className="font-medium mb-1">Frameworks & Libraries</h4>
-              <p className="text-muted-foreground">Node.js, Express.js</p>
+              <div className="flex items-center gap-2">
+              <img src="/icons/nodejs.svg" alt="Node.js" className="h-5 w-5" />
+              <span className="text-muted-foreground">Node.js</span>
+              </div>
+              <div className="flex items-center gap-2">
+              <img src="/icons/express.svg" alt="Express.js" className="h-5 w-5" />
+              <span className="text-muted-foreground">Express.js</span>
+              </div>
             </div>
             <div>
               <h4 className="font-medium mb-1">Databases</h4>
-              <p className="text-muted-foreground"> MongoDB, Redis</p>
+              <div className="flex items-center gap-2">
+              <img src="/icons/mongodb.svg" alt="MongoDB" className="h-5 w-5" />
+              <span className="text-muted-foreground">MongoDB</span>
+              </div>
+              <div className="flex items-center gap-2">
+              <img src="/icons/redis.svg" alt="Redis" className="h-5 w-5" />
+              <span className="text-muted-foreground">Redis</span>
+              </div>
             </div>
             <div>
               <h4 className="font-medium mb-1">DevOps & Cloud</h4>
-              <p className="text-muted-foreground">Docker, Linux</p>
+              <div className="flex items-center gap-2">
+              <img src="/icons/docker.svg" alt="Docker" className="h-5 w-5" />
+              <span className="text-muted-foreground">Docker</span>
+              </div>
+              <div className="flex items-center gap-2">
+              <img src="/icons/linux.svg" alt="Linux" className="h-5 w-5" />
+              <span className="text-muted-foreground">Linux</span>
+              </div>
             </div>
           </div>
         </section>
