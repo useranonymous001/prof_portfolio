@@ -297,6 +297,23 @@ export default function Home() {
             </div>
 
             <div className="border rounded-lg p-6">
+              <h3 className="text-xl font-bold mb-2">Do</h3>
+              <p className="text-muted-foreground mb-4">
+              A versatile command-line tool designed to simplify and optimize file operations and CPU-intensive tasks. 
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-2 py-1 bg-muted text-xs rounded">Node JS</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">Express Js</span>
+                <span className="px-2 py-1 bg-muted text-xs rounded">MongoDB</span>
+              </div>
+              <div className="flex gap-4">
+                <Link href="https://github.com/useranonymous001/do" target="_blank" className="text-sm text-primary hover:underline">
+                  View Code
+                </Link>
+              </div>
+            </div>
+
+            <div className="border rounded-lg p-6">
               <h3 className="text-xl font-bold mb-2">Twitter Backend Clone</h3>
               <p className="text-muted-foreground mb-4">
               A Cloned Backend System of Twitter undestanding the backend of Twitter
