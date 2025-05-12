@@ -187,6 +187,14 @@ export default function ResumePage() {
             </div>
 
             <div>
+              <h4 className="font-medium">Do</h4>
+              <p className="text-sm mb-1">Technologies: Node JS, Express Js, MongoDB</p>
+              <p className="text-sm">
+              A versatile command-line tool designed to simplify and optimize file operations and CPU-intensive tasks. 
+              </p>
+            </div>
+
+            <div>
               <h4 className="font-medium">Twitter Backend Clone</h4>
               <p className="text-sm mb-1">Technologies: Node JS, Express Js, MongoDB, APIs</p>
               <p className="text-sm">
@@ -210,7 +218,7 @@ export default function ResumePage() {
 
             <div className="space-y-2">
             <div className="flex justify-between">
-              <span>Node.js Services Developer (JSNAD)</span>
+              <span>Node.js Services Developer</span>
               <span className="text-sm text-muted-foreground">2024</span>
             </div>
             <div className="flex justify-between">
